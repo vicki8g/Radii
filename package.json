@@ -1,0 +1,28 @@
+{
+  "name": "radii",
+  "version": "1.0.0",
+  "description": "Radii.com project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicki8g/Radii.git"
+  },
+  "author": "Ali/Vicki/Monique/Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicki8g/Radii/issues"
+  },
+  "homepage": "https://github.com/vicki8g/Radii#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.13.0",
+    "request": "^2.79.0",
+    "sequelize": "^3.30.2"
+  }
+}
