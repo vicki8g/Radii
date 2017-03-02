@@ -5,6 +5,7 @@
     <title>Radii | Will make your day out easier</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/cordion.css">
 
     <!-- Font Awesome CDN -->
 
@@ -18,9 +19,13 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/demo.css" />
+    <link rel="stylesheet" type="text/css" href="assets/component.css" />
+    <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign in</button>
+    <!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Sign in</button> -->
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -46,6 +51,61 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src = "js/login.js"></script>
+    <div class="accordian">
+  <ul>
+    <li>
+      <div class="image_title">
+        <a href="#">Let's Study</a>
+      </div>
+      <a href="#">
+        <img src="images/study.jpg"/>
+      </a>
+    </li>
+    <li>
+      <div class="image_title">
+        <a href="#">Let's Coffee and Talk</a>
+      </div>
+      <a href="#">
+        <img src="images/coffee.jpg"/>
+      </a>
+    </li>
+    <li>
+      <div class="image_title">
+        <a href="#">Let's Drink</a>
+      </div>
+      <a href="#">
+        <img src="images/drinks.jpg"/>
+      </a>
+    </li>
+    <li>
+      <div class="image_title">
+        <a href="#">Let's Play</a>
+      </div>
+      <a href="#">
+        <img src="images/bowling.jpg"/>
+      </a>
+    </li>
+    <li>
+      <div class="image_title">
+        <a href="#">Let's Party</a>
+      </div>
+      <a href="#">
+        <img src="images/nightParty.jpg"/>
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-xs-offset-4 col-xs-4">
+          <div class="color-5">
+              <nav class="cl-effect-12">
+                  <a style="text-decoration: none; color: #fff" data-toggle="modal" data-target="#myModal">Log-in</a>
+              </nav>
+          </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src = "js/login.js"></script>
 </body>
 </html>

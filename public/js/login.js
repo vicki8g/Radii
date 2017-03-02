@@ -87,7 +87,7 @@ $(document).ready(function() {
         $.post("/api/users", userData)
         .then(redirectToProfile);
     }
-    function redirectToProfile() {
-        window.location.href = '../profile.html'
+    function redirectToProfile(userData) {
+        window.location.href = '/profile?user_id=' + userData.id;
     }
 });
