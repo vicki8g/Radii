@@ -2,7 +2,7 @@
 
 body {
   /*Fancy Full page BG*/
-  background: url("https://www.bowdoin.edu/arctic-museum/images/backgrounds/arctic-background-white-blue-gradient-1600x1084.jpg") center center fixed;
+  background: #ccc;
   background-size: cover;
   font-family: arial, verdana, tahoma;
 }
