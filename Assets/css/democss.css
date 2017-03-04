@@ -1,15 +1,33 @@
 body {
-    background-color: #ffffff;
+    background: url(white.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
-.btn {
+container1 {
+    max-height: 30px;
+    max-width:30px;
+}
+.sliderimg {
+    max-height: 1024px;
+    max-width: 1024px;
+}
+.logo {
+    height: 70px;
+}
+.sign {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+.button {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     color: white;
@@ -22,17 +40,24 @@ body {
 .right {
     position: fixed;
 }
+
+.sign {
+    float:right;
+}
 .carousel {
     margin: 0px;
 }
-h1{
-    font-size: 70px;
+
+h1 {
+    font-size: 50px;
 }
+
 .btn:hover {
     background: #337Faa;
     text-decoration: none;
     float: right;
 }
+
 .brand-logo {
     float: left;
     height: 50px;
